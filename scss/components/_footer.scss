@@ -120,7 +120,8 @@ footer {
         }
 
         .whatsapp-float {
-          position: absolute;
+          position: fixed;
+          bottom: 20px;
           right: 20px;
 
           a {
@@ -143,17 +144,15 @@ footer {
           }
         }
       }
-
-      ;
-      transform: scale(1.2);
     }
   }
 
 
   .whatsapp-float {
-    position: absolute;
-    right: 20px;
-
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+  
     a {
       background-color: $verde-background;
       color: $blancos;
@@ -166,12 +165,12 @@ footer {
       display: block;
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
       transition: background-color 0.3s ease, transform 0.3s;
-
+  
       &:hover {
         background-color: $blancos;
         transform: scale(1.2);
       }
     }
   }
-
- 
+  
+  
