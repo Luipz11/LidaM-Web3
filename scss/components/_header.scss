@@ -19,7 +19,8 @@ header {
       gap: 50px;
 
       .titulo {
-        text-align: center;
+        text-align:left;
+        font-family: "Rowdies", sans-serif;
         .subtitulo {
           @extend .titulo;
           color: #666;
